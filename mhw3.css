@@ -1,0 +1,105 @@
+header {
+    background-image: url(im1.jpg);
+    background-size: cover;
+    background-position: center; 
+    padding: 0px;
+    height: 600px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+header nav {
+    position: absolute;
+    font-family: 'East Sea Dokdo', cursive;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-size: 40px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+body {
+    font-family: Helvetica, sans-serif;
+ }
+  
+ #meteo {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+#meteo .previsioni {
+    margin: 10px;
+    border: 1px solid slategray;
+    padding: 5px;
+    max-width: 150px;
+    display: flex;
+    flex-direction: column;
+}  
+#film-view {
+  background-image:url(Covernews.png);
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#film-view .film {
+  margin: 10px;
+  border: 1px solid slategray;
+  padding: 5px;
+  max-width: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+#final{
+  font-family: 'Caveat',cursive;
+  background-image: url(coverFinal.png);
+  background-size: cover;
+  background-position: center;
+  padding: 0px;
+  margin-top: 0px ;
+}
+
+#ref{
+  display: flex;
+  flex-direction:column;
+}
+#ref a{
+  margin-top: 20px;
+  font-size: 35px;
+}
+#social{
+  display: inline;
+}
+#social a{
+  margin-bottom: 30px;
+  font-size: 35px ;
+}
+#social img{
+  margin-top: -35px;
+}
+#final a{
+  display: flex;
+}
+#meteo {
+  display: flex;
+  flex-wrap: wrap;  
+}
+
+#meteo .previsioni {
+  margin: 10px;
+  border: 1px solid slategray;
+  padding: 5px;
+  max-width: 150px;
+  display: flex;
+  flex-direction: column;
+}
+.hidden {
+  display: none;
+}
